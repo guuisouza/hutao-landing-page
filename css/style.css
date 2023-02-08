@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2e0e13 16.62%, #9c5a4b 85.61%);
+}
+
+.imgIcon {
+    width: 62px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.imgHutao{
+    width: 293.13px;
+    height: 293.31px;
+    border-radius: 55%;
+    margin-top: 25px;
+}
+
+.imgLogo {
+    width: 350px;
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    gap: 32px
+}
+
+.menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.main {
+    margin-bottom: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.primary-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.writer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rodape {
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.primary-content-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFF2E7;
+}
+
+.primary-content-sub-title {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4
+}
+
+.button {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.button:hover{
+    background-color:rgba(236, 214, 196, 0.53);
+    transition: 0.5s;
+}
+
+.secondary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.secondary-content-title {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.paragrafo1, .paragrafo2, .paragrafo3{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}

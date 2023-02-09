@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+
 * {
     margin: 0;
     padding: 0;
@@ -129,6 +133,7 @@ body{
     font-size: 24px;
     color: #FFF2EF;
     margin-bottom: 16px;
+    margin-top: 20px;
 }
 
 .paragrafo1, .paragrafo2, .paragrafo3{

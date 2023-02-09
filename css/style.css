@@ -100,6 +100,12 @@ body{
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
+    cursor: pointer;
+}
+
+.link-hoyo {
+    width: 180px;
+    height: 60px;
 }
 
 .button:hover{
